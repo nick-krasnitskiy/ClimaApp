@@ -14,6 +14,7 @@
 		D4164C4725ECE1A10028F0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4164C4625ECE1A10028F0EC /* Assets.xcassets */; };
 		D4164C4A25ECE1A10028F0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4164C4825ECE1A10028F0EC /* LaunchScreen.storyboard */; };
 		D4CB2E1A25F7371000C2F6EB /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB2E1925F7371000C2F6EB /* WeatherManager.swift */; };
+		D4CB2E2125F75BE900C2F6EB /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB2E2025F75BE900C2F6EB /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D4164C4925ECE1A10028F0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4164C4B25ECE1A10028F0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4CB2E1925F7371000C2F6EB /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		D4CB2E2025F75BE900C2F6EB /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				D4CB2E1925F7371000C2F6EB /* WeatherManager.swift */,
+				D4CB2E2025F75BE900C2F6EB /* WeatherData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4164C4225ECE19D0028F0EC /* WeatherViewController.swift in Sources */,
+				D4CB2E2125F75BE900C2F6EB /* WeatherData.swift in Sources */,
 				D4164C3E25ECE19D0028F0EC /* AppDelegate.swift in Sources */,
 				D4CB2E1A25F7371000C2F6EB /* WeatherManager.swift in Sources */,
 				D4164C4025ECE19D0028F0EC /* SceneDelegate.swift in Sources */,
